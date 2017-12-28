@@ -64,7 +64,7 @@ def on_open(ws):
     global _t_update
     cmd = packets.build_player_command('LOGIN',
                                        protocol=5,
-                                       name=input('Nickname: '),
+                                       name='cli',
                                        session='none',
                                        horizonX=1920 / 2,
                                        horizonY=1920 / 2,
