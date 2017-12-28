@@ -1,6 +1,6 @@
 from construct import *
 
-SERVER_ADDR = "wss://game-eu-s1.airma.sh/ffa1"
+SERVER_ADDR = "wss://game-{}-s1.airma.sh/ffa1".format(input('Region (i.e. us/eu): '))
 
 emotes = [
     'tf',
